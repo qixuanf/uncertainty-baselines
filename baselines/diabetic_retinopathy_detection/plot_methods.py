@@ -119,6 +119,7 @@ def main(argv):
   utils.plot_roc_curves(
       distribution_shift_name=distribution_shift,
       dataset_to_model_results=dataset_to_model_results, plot_dir='roc-plots')
+  utils.plot_histograms_rebuttal(plot_dir='hist-plots')
 
 
 if __name__ == '__main__':
